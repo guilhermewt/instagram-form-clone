@@ -1,0 +1,61 @@
+.capa{
+	padding: 40px;
+	text-align: center;
+	border:  1px solid red;
+}
+
+.formulario {
+	text-align: center;
+	padding: 20px 50px 20px 50px;
+
+}
+
+.imagemFacebook{
+	height: 20px;
+	width: 20px;
+	background-size: contain;
+}
+
+.img-instagram{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#opcoesEntrada{
+	background: none;
+	width: 250px;
+	margin: 15px 0px;
+}
+
+.form-group{
+	margin: 5px 0px 5px 0px;
+}
+
+
+/*================tipografia ================*/
+
+#opcoesEntrada a{
+	font-size: 14px;
+	color: #385185;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+ h4 a{
+	font-size: 12px;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-weight:0;
+    text-decoration: none;
+}
+
+button{
+	margin: 20px 0px 20px 0px;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+.btn{
+	margin-bottom: 15px;
+}
