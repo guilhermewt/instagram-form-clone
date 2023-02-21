@@ -1,0 +1,27 @@
+.logo{
+    width: 90px;
+    height: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.base{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+
+.cadeado{
+    width: 100px;
+    height: 100px;
+}
+

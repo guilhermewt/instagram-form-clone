@@ -2,6 +2,7 @@
 	padding: 40px;
 	text-align: center;
 	border:  1px solid red;
+	color: rgb(var(--ig-primary-text));
 }
 
 /*==================imagens====================*/
