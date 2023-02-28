@@ -11,17 +11,41 @@
 }
 
 .base{
+    position:relative
+}
+
+.form{
     width: 500px;
     height: 600px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.26);
     justify-content: center;
     text-align: center;
-    padding: 20px;
-    float: left;
+    padding: 30px;
+   
 }
 
 .cadeado{
     width: 100px;
     height: 100px;
+}
+
+.change-session {
+    margin-bottom: 10px;
+}
+
+.redefinirPassword{
+    margin-bottom: 40px;
+}
+
+.voltarLogin{
+position: absolute;
+    bottom: 0;
+    /* margin: auto; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.novaConta{
+    color: black;
 }
 
