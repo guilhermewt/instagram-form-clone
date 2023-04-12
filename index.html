@@ -24,18 +24,25 @@
     <div class="container">
       <div class="row capa">
         
-        <div class="col-sm-6" style="border: 1px solid red;">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 containerOne">
           
-          <div class="imagens_de_fundo">
-            <img src="imagens/japoneses_instagram.png">
-          </div>
-          <div class="imagens_de_frente">
-            <img src="imagens/menina_gato_instagram.png">
+          <div class="main-container">
+            <div class="main-content">
+              <div class="slide-container" style="background-image: url('imagens/mobile-frame.png');">
+                  <div class="slide-content" id="slide-content">
+                    <img src="imagens/screen1.jpg"  class="active" alt="screen1">
+                    <img src="imagens/screen2.jpg" alt="screen2">
+                    <img src="imagens/screen3.jpg" alt="screen3">
+                    <img src="imagens/screen4.jpg" alt="screen4">
+                    <img src="imagens/screen5.jpg" alt="screen5">
+                  </div>
+              </div>
+            </div>
           </div>
           
         </div>
 
-        <div class="col-sm-4" >
+        <div class="col-4 col-sm-6 col-md-4 col-lg-4 col-xl-4" >
             <div class="formulario" style="border: 1px solid rgba(71, 63, 63, 0.167);">
                   <span >
                     <img src="imagens/instagram.png" class="img-instagram">
@@ -60,14 +67,14 @@
 
                   </span>
 
-                  <h4><a>Esqueceu a senha?</a></h4>
+                  <h4><a href="recuperarSenhaForm.html">Esqueceu a senha?</a></h4>
                   
                 </form>
             </div> 
 
             <div id="cadastra-se" style="border: 1px solid rgba(71, 63, 63, 0.167);">
               <h3>Não tem uma conta? 
-                <a>Cadastre-se</a>
+                <a href="cadastro.html">Cadastre-se</a>
               </h3>
             </div>   
 
@@ -107,10 +114,37 @@
       </div>
     </footer>
 
+    <!-- <script>
+      function changeImage(){
+        
+        setInterval(() => {
+          changeImage();
+        },2000);
+
+        var images = document.getElementById("slide-content").getElementsByTagName("img");
+
+        var i = 0;
+
+        for(i = 0;i < images.length;i++){
+          var image = images[i];
+
+            if(image.classList.contains("active")){
+            //remove active class from this image{
+            image.classList.remove("active");
+
+            var nextImage = images[i+1];
+            nextImage.classList.add("active");
+            break;
+            }
+        }
+      }
+      
+    </script> -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
 
   </body>
 </html>

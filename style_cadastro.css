@@ -1,0 +1,108 @@
+.container{
+    border: 1px solid red;
+}
+
+.base{
+    width: 500px; 
+    padding: 20px;
+    margin:auto;
+}
+
+
+
+.login{
+    width:400px; 
+    /* height:650px;  */
+    border:1px solid rgba(117, 120, 117, 0.609);
+    margin:auto;
+    margin-bottom:10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form{
+    width: 300px;
+    margin:auto;
+}
+
+.direcionarConta{
+    width:400px; 
+    height:100px; 
+    border:1px solid rgba(117, 120, 117, 0.609);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direcionarApps{
+    width:400px; 
+    /* height:100px; */
+    margin: auto;
+    margin-top: 10px;
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+.direcionarApps > img{
+    width: 136px;
+    height: 36px;
+    margin-right: 5px;
+}
+
+.tamanho_elementos{
+    width: 300px;
+    margin: auto;
+}
+
+.texto_cadastrar{
+    font-size: 18px;
+    color:#778899;
+}
+
+.space{
+    margin-bottom: 10px;
+}
+
+.texto_sobre{
+    font-size: 13px;
+    color:#778899;
+    margin-bottom: 10px;
+}
+
+/*==============foooter==============*/
+
+.footer{
+	border: 1px solid blue;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+	float: auto;
+    
+}
+
+.servicos{
+	text-align: center;
+	font-size: 12px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+.servicos > a{
+	margin-right: 10px;
+	color: #8e8e8e;
+}
+
+.idioma_ano{
+	border: 1px solid orange;
+	margin-top: 15px;
+	color: #8e8e8e;
+	text-align: center;
+	font-size: 12px;
+    margin: auto;
+}
+
+.idioma_ano a{
+	color: #8e8e8e;
+}

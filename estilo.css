@@ -1,8 +1,8 @@
 .capa{
 	padding: 40px;
 	text-align: center;
-	border:  1px solid red;
 	color: rgb(var(--ig-primary-text));
+	
 }
 
 /*==================imagens====================*/
@@ -26,6 +26,7 @@
 	text-align: center;
 	padding: 20px 30px 20px 30px;
 	border: 1px solid white;
+	margin-top: 80px;
 
 }
 
@@ -76,11 +77,10 @@
 /*==============foooter==============*/
 
 .footer{
-	border: 1px solid blue;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: 10px;
-	float: auto;
+	/* float: auto; */
 }
 
 .servicos{
@@ -147,4 +147,78 @@ p{
 
 .btn{
 	margin-bottom: 15px;
+}
+
+/*==============phone==============*/
+
+.main-content{
+	margin: 30px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 930px;
+	flex-grow: 1;
+}
+
+.slide-container{
+    height: 620px;
+    flex-basis: 450px;
+}
+
+.slide-content{
+    margin: 100px 0 0 150px;
+    position: relative;
+}
+
+.slide-container img{
+    position:absolute;
+    inset: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slide-container img.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.container{
+	/* height: 100vh; */
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/*=============media queries=============*/
+
+@media screen and (max-width: 995px){
+	
+	.containerOne{
+		display: none;
+	}
+
+	.capa{
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+}
+
+@media screen and (max-width:420px){
+	
+	.imagensObterAplicativo{
+		width: 100px;
+		height: 30px;
+	}
+	#cadastre-se > h3,a{
+		font-size: 12px;
+	}
+
+	#opcoesEntrada > a, h4 > a{
+		font-size: 13px;
+	}
+	p{
+		font-size: 12px;
+	}
 }
