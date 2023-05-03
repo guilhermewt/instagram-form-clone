@@ -94,7 +94,6 @@
 }
 
 .idioma_ano{
-	border: 1px solid orange;
 	margin-top: 15px;
 	color: #8e8e8e;
 	text-align: center;
@@ -221,4 +220,34 @@ p{
 	p{
 		font-size: 12px;
 	}
+}
+
+@media screen and (max-width:500px){
+	.capa{
+		padding: 0px;
+	}
+
+	.formulario{
+		padding: 0;
+		margin: 5px 0 0 0;
+	}
+	
+}
+
+@media screen and (max-width:770px){
+	.capa{
+		padding: 0px;
+	}
+
+	.formulario{
+		padding: 0;
+		margin: 5px 0 0 0;
+	}
+
+	.imagensObterAplicativo{
+		width: 115px;
+		height: 36px;
+		margin-right: 5px;
+	}
+	
 }
